@@ -39,7 +39,7 @@ section .green {
 }
 
 /* 8 */
-ul li {
+ul > li {
   background-color: red;
 }
 
@@ -99,23 +99,23 @@ section div:only-child {
 
 /*   Урок 3  */
 /* 1 */
-a[href] {
+.lesson-three-task-one a[href] {
   color: white;
 }
 /* 2 */
-li[value] {
+.lesson-three-task-two li[value] {
   color: yellow;
 }
 /* 3 */
-li[value='3'] {
+.lesson-three-task-three li[value='3'] {
   background-color: red;
 }
 /* 4 */
-button[class~='primary'] {
+.lesson-three-task-four button[class~='primary'] {
   background-color: blue;
 }
 /* 5 */
-button[class|='secondary'] {
+.lesson-three-task-five button[class|='secondary'] {
   background-color: red;
 }
 /* 6 */
